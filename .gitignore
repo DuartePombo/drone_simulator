@@ -1,0 +1,6 @@
+*.pyc
+environment\__pycache__\*.pyc
+input\__pycache__\*.pyc
+physics\__pycache__\*.pyc
+utils\__pycache__\*.pyc
+rendering\__pycache__\*.pyc

@@ -75,7 +75,7 @@ class DroneGate:
         
         glPushMatrix()
         glTranslatef(x, y, z)
-        glRotatef(self.rotation, 0, 0, 1)  # Rotate around Z axis
+        glRotatef(self.rotation, 1, 0, 0)  # Rotate around X axis # Z axis
         
         glColor3f(*self.color)
         
